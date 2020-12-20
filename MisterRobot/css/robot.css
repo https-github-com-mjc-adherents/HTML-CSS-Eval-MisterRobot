@@ -46,6 +46,7 @@ header{
     position: relative; 
 	top: 40px; 
     left: 89vh; 
+  
     }
 
 .cou{
@@ -153,7 +154,30 @@ header{
 
 @keyframes arm1 { 40% {  transform:rotate(-50deg); } }
 
+.eyes1 {
+    animation: 
+    pulse 1s ease infinite alternate, 
+   
+    
+   }
+
+   @keyframes pulse {
+    0%, 100% {
+      margin: 0px;
+    }
+    50% {
+      margin: 50px;
+    }
+  }
 
 
-  input[type=checkbox]:checked ~ body {
-margin-left: 400vh; }
+  input[type=checkbox]:checked ~  .bod{
+
+margin-left: 4vh; }
+
+input{opacity: 1;
+    margin: 41vh;
+    left:    50vh;
+    font-size: 400px;
+    position: absolute;
+}
